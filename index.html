@@ -9,7 +9,7 @@
 <body>
     <h1>Hello World</h1>
     <p class="styled-paragraph">It's a new and bright day</p>
-    <button onclick="toggleStyle()">toggle</button>
+    <button class="toggle-button">toggle</button>
     <p>aaaaa</p>
     <p>fsnjgnjdfnb</p>
     <p>vdfjndfjgn</p>
@@ -23,7 +23,7 @@
 
     </ul>
 
-    <button onclick="addTips()">Add Tips</button>
+    <button class="tips-button">Add Tips</button>
 
 
     <article>
@@ -31,6 +31,12 @@
 
         </ol>
     </article>
+
+    <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" class="search-input" required>
+        <button type="submit">Submit</button>
+    </form>
 
     <script src="./script.js"></script>
 </body>
